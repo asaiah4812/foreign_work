@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome icon cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=pencerio@50&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- google font family link  -->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=poppins@100,101,200,201,300,301,400,401,500,501,600,601,700,701,800,801,900,1,2&f[]=sentient@200,201,300,301,400,401,500,501,700,701,1,2&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind css class link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header
+      class="flex flex-col bg-[#333] mx-auto h-[40vh] justify-center gap-8"
+    >
+      <div class="flex items-center justify-between px-12">
+        <div>
+          <a
+            class="text-white border border-xl px-12 hover:bg-orange-300 hover:text-black duration-100 ease py-6 border-orange-300 text-xl font-medium"
+            href="#"
+            >Call - 123 456 789</a
+          >
+        </div>
+        <div>
+          <img
+            src="/images/6246d7f2c2b5677de6d04e5f_tasteat-brand-logo.svg"
+            alt="logo"
+          />
+        </div>
+        <div>
+          <a
+            class="py-6 px-12 hover:border-orange-300 bg-orange-300 text-xl font-medium duration-100 ease hover:bg-transparent border border-orange-300 hover:text-orange-300 hover:border-orange-300"
+            href="#"
+            >Reservation</a
+          >
+        </div>
+      </div>
+      <nav
+        class="flex items-center justify-between border-t py-6 border-b border-slate-50 border-sm px-12"
+      >
+        <div class="flex items-center gap-6 text-white [&>a]:text-lg">
+          <a class="text-md hover:text-orange-300 text-orange-300" href="#"
+            >Home</a
+          >
+          <a class="text-md hover:text-orange-300" href="#">About Us</a>
+          <a class="text-md hover:text-orange-300" href="#">Our Menu</a>
+          <a class="text-md hover:text-orange-300" href="#">Pages</a>
+          <a class="text-md hover:text-orange-300" href="#">Blog</a>
+          <a class="text-md hover:text-orange-300" href="#">Contact Us</a>
+        </div>
+        <div class="flex items-center gap-4 [&>a>i]:text-white [&>a>i]:text-lg">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+      </nav>
+    </header>
+    <section class="bg-[#333] h-screen flex px-12 gap-10 items-center">
+      <div class="flex-1 flex flex-col gap-5 items-start">
+        <h1 class="text-white text-4xl header text-7xl">
+          Welcome to
+          <br />
+          Resturant
+        </h1>
+        <p class="text-white">
+          The people, food and the prime locations make the perfect place good
+          friends & family to come together and have great time.
+        </p>
+        <a
+          class="text-white border border-xl px-12 hover:bg-orange-300 hover:text-black duration-100 ease py-6 border-orange-300 text-xl font-medium"
+          href="#"
+          >View Menu</a
+        >
+      </div>
+      <div
+        class="hero w-[300px] h-full flex-1 overflow-hidden rounded-t-[50%] border border-[30px] border-gray-500"
+      >
+        <img
+          src="/images/pexels-lina-kivaka-1813466.jpg"
+          class="w-full h-full"
+          alt="hero"
+        />
+      </div>
+    </section>
+    <section class="flex flex-col px-10 py-12 bg-[#fff8f5]">
+      <div class="items-center justify-between flex">
+        <div class="flex items-center gap-6 py-6">
+          <div
+            class="bg-[#333] w-[70px] h-[70px] rounded-full shadow-md flex items-center justify-center"
+          >
+            <i class="fa-solid fa-location-dot text-white text-2xl"></i>
+          </div>
+          <div>
+            <h2 class="text-3xl font-bold sub-title">Location</h2>
+            <p class="text-lg">Riverside 25, San Diego, California</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-6 py-6">
+          <div
+            class="bg-[#333] w-[70px] h-[70px] rounded-full shadow-md flex items-center justify-center"
+          >
+            <i class="fa-regular fa-clock text-white text-2xl"></i>
+          </div>
+          <div>
+            <h2 class="text-3xl font-bold sub-title">Open Hour</h2>
+            <p class="text-lg">Mon to Fri 9:00 AM - 9:00 PM</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-6 py-6">
+          <div
+            class="bg-[#333] w-[70px] h-[70px] rounded-full shadow-md flex items-center justify-center"
+          >
+            <i class="fa fa-book text-2xl text-white" aria-hidden="true"></i>
+          </div>
+          <div>
+            <h2 class="text-3xl font-bold sub-title">Reservation</h2>
+            <p class="text-lg">restaurantate@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center gap-8 my-8">
+        <div class="w-[80%]">
+          <img src="images/hero/pexels-igor-starkov-1307698.jpg" alt="" />
+        </div>
+        <div class="flex flex-col gap-5">
+          <div>
+            <h2 class="text-3xl font-bold sub-title">The Delicious Story</h2>
+            <p>
+              The people, food and the prime locations make the perfect place
+              for the friends & family to come together and have great time.
+            </p>
+          </div>
+          <div class="flex items-center gap-6">
+            <div>
+              <h2 class="text-2xl font-medium sub-title">2018</h2>
+              <p>Plan for this restaurant to deliver healthy food.</p>
+            </div>
+            <div>
+              <h2 class="text-2xl font-medium sub-title">2022</h2>
+              <p>Happily in the fourth year by fulfill the motto.</p>
+            </div>
+          </div>
+          <div>
+            <h2>JOSEFINE</h2>
+            <p class="sign text-5xl">Josefine</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="px-10 py-[6rem] flex w-full bg-white">
+      <div class="flex flex-col items-start gap-5 w-[40%]">
+        <h3 class="text-2xl border-y border-orange-300">MENU</h3>
+        <h2 class="sub-title text-4xl">Try Our Special Dishes</h2>
+        <p class="sub-title">
+          Every time you perfectly dine with us, it should happy for great
+          inspired food in an environment designed with individual touches
+          unique to the local area.
+        </p>
+        <img class="w-[500px]" src="/images/hero/pexels-leeloo-the-first-6173329.jpg" alt="">
+        <a class="text-orange-300 border border-xl px-12 hover:bg-orange-300 hover:text-black duration-100 ease py-6 border-orange-300 text-xl font-medium" href="">See all dishes</a>
+      </div>
+      <div class="flex items-start flex-col w-[60%] h-[100vh] overflow-y-scroll">
+        <div class="flex flex-col gap-5">
+          <h2 class="sub-title font-medium text-4xl py-4">Starters</h2>
+          <div class="flex flex-col itmes-start gap-4">
+            <div class="flex items-center  justify-between gap-5">
+              <div class="w-[100px]">
+                <img class="w-full" src="/images/recipies/Apples.png" alt="">
+              </div>
+              <div>
+                <h2 class="font-medium text-2xl sub-title text-black-300">Raw Scallops from Erquy</h2>
+                <div class="flex  items-center gap-2">
+                  <p class="flex text-slate-400 sub-title">Shuck the scallop to that used for oysters </p>
+                  <hr class="w-[500px]"> 
+                  <span>$18</span>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center  justify-between gap-5">
+              <div class="w-[100px]">
+                <img class="w-full" src="/images/recipies/Food.png" alt="">
+              </div>
+              <div>
+                <h2 class="font-medium text-2xl sub-title text-black-300">Raw Scallops from Erquy</h2>
+                <div class="flex  items-center gap-2">
+                  <p class="flex text-slate-400 sub-title">Shuck the scallop to that used for oysters </p>
+                  <hr class="w-[500px]"> 
+                  <span>$18</span>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center  justify-between gap-5">
+              <div class="w-[100px]">
+                <img class="w-full" src="/images/recipies/Food1.png" alt="">
+              </div>
+              <div>
+                <h2 class="font-medium text-2xl sub-title text-black-300">Raw Scallops from Erquy</h2>
+                <div class="flex  items-center gap-2">
+                  <p class="flex text-slate-400 sub-title">Shuck the scallop to that used for oysters </p>
+                  <hr class="w-[500px]"> 
+                  <span>$20</span>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center  justify-between gap-5">
+              <div class="w-[100px]">
+                <img class="w-full" src="/images/recipies/Food2.png" alt="">
+              </div>
+              <div>
+                <h2 class="font-medium text-2xl sub-title text-black-300">Raw Scallops from Erquy</h2>
+                <div class="flex  items-center gap-2">
+                  <p class="flex text-slate-400 sub-title">Shuck the scallop to that used for oysters </p>
+                  <hr class="w-[500px]"> 
+                  <span>$10</span>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center  justify-between gap-5">
+              <div class="w-[100px]">
+                <img class="w-full" src="/images/recipies/Food2.png" alt="">
+              </div>
+              <div>
+                <h2 class="font-medium text-2xl sub-title text-black-300">Raw Scallops from Erquy</h2>
+                <div class="flex  items-center gap-2">
+                  <p class="flex text-slate-400 sub-title">Shuck the scallop to that used for oysters </p>
+                  <hr class="w-[500px]"> 
+                  <span>$10</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-5">
+          <h2 class="sub-title font-medium text-4xl py-4">Main Dish</h2>
+          <div class="flex flex-col itmes-start gap-4">
+            <div class="flex items-center  justify-between gap-5">
+              <div class="w-[100px]">
+                <img class="w-full" src="/images/recipies/Apples.png" alt="">
+              </div>
+              <div>
+                <h2 class="font-medium text-2xl sub-title text-black-300">Raw Scallops from Erquy</h2>
+                <div class="flex  items-center gap-2">
+                  <p class="flex text-slate-400 sub-title">Shuck the scallop to that used for oysters </p>
+                  <hr class="w-[500px]"> 
+                  <span>$18</span>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center  justify-between gap-5">
+              <div class="w-[100px]">
+                <img class="w-full" src="/images/recipies/Food.png" alt="">
+              </div>
+              <div>
+                <h2 class="font-medium text-2xl sub-title text-black-300">Raw Scallops from Erquy</h2>
+                <div class="flex  items-center gap-2">
+                  <p class="flex text-slate-400 sub-title">Shuck the scallop to that used for oysters </p>
+                  <hr class="w-[500px]"> 
+                  <span>$18</span>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center  justify-between gap-5">
+              <div class="w-[100px]">
+                <img class="w-full" src="/images/recipies/Food1.png" alt="">
+              </div>
+              <div>
+                <h2 class="font-medium text-2xl sub-title text-black-300">Raw Scallops from Erquy</h2>
+                <div class="flex  items-center gap-2">
+                  <p class="flex text-slate-400 sub-title">Shuck the scallop to that used for oysters </p>
+                  <hr class="w-[500px]"> 
+                  <span>$20</span>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center  justify-between gap-5">
+              <div class="w-[100px]">
+                <img class="w-full" src="/images/recipies/Food2.png" alt="">
+              </div>
+              <div>
+                <h2 class="font-medium text-2xl sub-title text-black-300">Raw Scallops from Erquy</h2>
+                <div class="flex  items-center gap-2">
+                  <p class="flex text-slate-400 sub-title">Shuck the scallop to that used for oysters </p>
+                  <hr class="w-[500px]"> 
+                  <span>$10</span>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center  justify-between gap-5">
+              <div class="w-[100px]">
+                <img class="w-full" src="/images/recipies/Food2.png" alt="">
+              </div>
+              <div>
+                <h2 class="font-medium text-2xl sub-title text-black-300">Raw Scallops from Erquy</h2>
+                <div class="flex  items-center gap-2">
+                  <p class="flex text-slate-400 sub-title">Shuck the scallop to that used for oysters </p>
+                  <hr class="w-[500px]"> 
+                  <span>$10</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="px-10 py-[6rem] flex w-full bg-[#333] flex-col">
+      <div class="flex flex-col items-start gap-4">
+        <h3 class="text-2xl border-y border-orange-300 text-white">TESTIMONIAL</h3>
+        <h1 class="text-4xl sub-title text-white">Our Clients Say</h1>
+        <p class="text-white">We love to hear from customers, so please leave a comment or say hello in an email.</p>
+      </div>
+      <div class="cardy">
+    <div class="wrapper py-5">
+      <i id="left" class="fa-solid fa-angle-left text-white"></i>
+      <ul class="carousel">
+        <li class="card bg-slate-200">
+          <div class="flex px-5 gap-3 flex-col ">
+            <img class="w-[80px] img h-[80px] rounded-full" src="images/Asaiah Henson.jpg" alt="img" draggable="false">
+            <div>
+              <h2 class="sub-title text-2xl text-white font-bold">Natasha D</h2>
+              <span class="text-medium text-orange-300 sub-title text-xl">Newyork</span>
+            </div>
+            <hr>
+            <p class="font-italic text-white">
+              They known for its fabulous taste and food. Anywhere you go your hunger is satisfied.
+              The best chicken & burgers those are yummy.
+            </p>
+          </div>
+        </li>
+        <li class="card bg-slate-200">
+          <div class="flex px-5 gap-3 flex-col ">
+            <img class="w-[80px] img h-[80px] rounded-full" src="images/bigbruh.jpg" alt="img" draggable="false">
+            <div>
+              <h2 class="sub-title text-2xl text-white font-bold">Natasha D</h2>
+              <span class="text-medium text-orange-300 sub-title text-xl">Newyork</span>
+            </div>
+            <hr>
+            <p class="font-italic text-white">
+              They known for its fabulous taste and food. Anywhere you go your hunger is satisfied.
+              The best chicken & burgers those are yummy.
+            </p>
+          </div>
+        </li>
+        <li class="card bg-slate-200">
+          <div class="flex px-5 gap-3 flex-col ">
+            <img class="w-[80px] img h-[80px] rounded-full" src="images/bruna(1).jpeg" alt="img" draggable="false">
+            <div>
+              <h2 class="sub-title text-2xl text-white font-bold">Natasha D</h2>
+              <span class="text-medium text-orange-300 sub-title text-xl">Newyork</span>
+            </div>
+            <hr>
+            <p class="font-italic text-white">
+              They known for its fabulous taste and food. Anywhere you go your hunger is satisfied.
+              The best chicken & burgers those are yummy.
+            </p>
+          </div>
+        </li>
+        <li class="card bg-slate-200">
+          <div class="flex px-5 gap-3 flex-col ">
+            <img class="w-[80px] img h-[80px] rounded-full" src="images/davido.jpg" alt="img" draggable="false">
+            <div>
+              <h2 class="sub-title text-2xl text-white font-bold">Natasha D</h2>
+              <span class="text-medium text-orange-300 sub-title text-xl">Newyork</span>
+            </div>
+            <hr>
+            <p class="font-italic text-white">
+              They known for its fabulous taste and food. Anywhere you go your hunger is satisfied.
+              The best chicken & burgers those are yummy.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <i id="right" class="fa-solid fa-angle-right text-white"></i>
+    </div>
+  </div>
+    </section>
+
+    <section class="bed h-[50vh] w-full ">
+
+    </section>
+    <section class="px-10 py-[6rem] flex w-full flex-col">
+      <div class="text-center flex flex-col items-center gap-4">
+         <h3 class="text-2xl border-y border-orange-300 text-black">OFFER</h3>
+         <h1 class="sub-title font-medium text-3xl">Our Offer Dishes</h1>
+         <p class="text-lg">
+          Our chefs create melt-in-your-mouth dishes that'll satiate even the fussiest eaters now <br>
+the dishes are in offers use it based on hunger.
+         </p>
+      </div>
+      <div class="flex gap-8 justify-between">
+        <div>
+          <div>
+            
+          </div>
+        </div>
+        <div>
+          <img src="" alt="">
+        </div>
+      </div>
+    </section>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
